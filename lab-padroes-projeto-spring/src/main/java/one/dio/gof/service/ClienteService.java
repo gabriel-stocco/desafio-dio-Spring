@@ -3,9 +3,24 @@ package one.dio.gof.service;
 import one.dio.gof.model.Cliente;
 
 public class ClienteService {
-    Iterable<Cliente> buscarTodos();
-    Cliente buscarPorId(Long id);
-    void inserir(Cliente cliente);
-    void atualizar(Long id, Cliente cliente);
-    void deletar(Long id);
+    public Iterable<Cliente> buscarTodos() {
+        return null;
+    }
+
+    public Cliente buscarPorId() {
+
+
+        return null;
+    }
+
+    public void inserir(Cliente cliente) {
+    }
+
+    public void atualizar(Long id, Cliente cliente) {
+
+    }
+
+    public void deletar(Long id) {
+
+    }
 }
